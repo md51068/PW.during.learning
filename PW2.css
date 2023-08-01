@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: rgb(248, 179, 6);
+    justify-content: center;
+    margin: 4px;
+   
+    
+}
+a{                                         
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content:space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(3px);
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png" ) ;
+      
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+li{
+    list-style:none ;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    font-weight: 900;
+   
+}
+
+.button2{
+    font-weight: 600;
+    background-color: rgb(255, 42, 84);
+    color: aliceblue;
+    border-color:rgb(255, 42, 84) ;
+    border: 1px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 30px;
+    font-size: large;
+    margin-top: 20px;
+    
+}
+.button1{
+    font-weight: 100;
+    background-color: rgb(255, 42, 84);
+    color: aliceblue;
+    border-color:rgb(255, 42, 84) ;
+    border: 1px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1px 1%;
+    
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
